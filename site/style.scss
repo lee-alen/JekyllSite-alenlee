@@ -2,5 +2,51 @@
 ---
 
 @import "reset";
+@import url('https://fonts.googleapis.com/css2?family=Habibi&family=Rakkas&family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400&display=swap');
 
-//Alen's styles here
+html {font-size: 100%;} /*16px*/
+
+body {
+  background: #ffed88;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #000000;
+}
+
+p {margin-bottom: 1rem;}
+
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Habibi', serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1, h2 {
+  font-family: 'Rakkas', serif;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209rem;
+}
+
+h2 {font-size: 3.157rem;}
+
+h3 {font-size: 2.369rem;}
+
+h4 {font-size: 1.777rem;}
+
+h5 {font-size: 1.333rem;}
+
+small, .text_small {font-size: 0.75rem;}
+
+a {
+  color: #000000;
+}
+
