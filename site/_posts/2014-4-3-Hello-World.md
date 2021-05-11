@@ -1,9 +1,9 @@
 ---
 layout: post
-title: You're up and running!
+title: My very first post
 ---
 
-Yay! This is a Sample Post! You can edit it using Markdown!
+Yay! This is a Sample Post!  edit it using Markdown!
 
 # THIS IS A HEADER
 
