@@ -4,12 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+My name is Alen Lee and I'd like to keep myself busy with various types of art, but mainly music and visual art.
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+Amongst other streams of art I do literature, chess and storytelling
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[li.alen@list.ru](mailto:email@domain.com)
