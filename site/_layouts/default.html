@@ -19,7 +19,14 @@
 
     <main class="container">
       {{ content }}
-    </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <h4>Contact me</h4>
+        <p><a href="mailto:{{site.footer-links.email}}">{{site.footer-links.email}}</a></p>
+      </div>
+    </footer>
 
     {% include analytics.html %}
   </body>

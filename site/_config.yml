@@ -9,7 +9,7 @@ name: Alen Lee
 description: Art Omnidirectional
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://psv4.userapi.com/c520036/u145688179/docs/d11/e1a594c4e2eb/IMG_6693.jpg?extra=W6DtgXFRQbv45ylDOM1MKuwOohbr5ASPD5peJk07XxAKkDzP8r1XOJZrc9Sd6WBe--V8ErjI0wMalNTVC9-TXjdhdZxAKmA1K09Qd9p9C5RNfFSOvqftCyU78tma0NRy22Wo0UAcgVQHdN4x_C8Allul
+avatar: /images/alen-avatar.jpg
 
 #
 # Flags below are optional
@@ -47,7 +47,7 @@ url:
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: "site"
+baseurl: ""
 
 #
 # !! You don't need to change any of the configuration flags below !!

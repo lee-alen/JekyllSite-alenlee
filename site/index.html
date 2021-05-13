@@ -1,18 +1,25 @@
 ---
 layout: default
 ---
+<header>
+  <div class="avatar">
+    <img src="{{site.avatar}}" alt="{{site.name}} avatar">
+  </div>
 
-<div class="posts">
+  <article class="bio">
+    <h1>{{site.name}}</h1>
+    <p>My name is Alen Lee and I'd like to keep myself busy with various types of art, but mainly music and visual art. Amongst other streams of art I do literature, chess and storytelling.</p>
+  </article>
+</header>
+<hr>
+<h2>Projects</h2>
+<div class="projects">
   {% for post in site.posts %}
-    <article class="post">
-
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-
-      <div class="entry">
-        {{ post.excerpt }}
+    <div class="project">
+      <div class="thumbnail">
+        <img src="{{post.thumbnail}}" alt="{{post.title}} thumbnail">
       </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
+      <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+    </div>
   {% endfor %}
 </div>
