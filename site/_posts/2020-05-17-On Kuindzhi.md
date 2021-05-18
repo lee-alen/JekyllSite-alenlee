@@ -4,8 +4,8 @@ title: "On Kuindzhi"
 thumbnail: /images/kuindzhi.jpg
 ---
 
-#### [Streaming link](https://open.spotify.com/album/3ZyZKEytAJjlfYlBYlGiWS?si=IKoI9okWSjmwAL2eal-ZaA)
+#### [Listen to it on Spotify](https://open.spotify.com/album/3ZyZKEytAJjlfYlBYlGiWS?si=IKoI9okWSjmwAL2eal-ZaA)
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ultrices enim eu mi dignissim, et porttitor nibh accumsan. Sed laoreet lectus nec orci scelerisque varius. Fusce euismod nisl at ornare pellentesque. Nullam euismod pulvinar elit eu posuere. Proin sed sem neque. Vestibulum malesuada risus nunc, sit amet ultrices est dictum ac. Aenean posuere bibendum eleifend. Donec in nisl vel enim efficitur sagittis sit amet non orci. Suspendisse potenti. Vestibulum maximus auctor ullamcorper. Vestibulum interdum porta lectus, at ultrices turpis ultrices eu. Nullam in hendrerit odio. Cras iaculis lorem lorem, vel congue erat congue eget.
+Arkhip Kuindzhi was a prominent Russian late-romantic era landscape painter of greek descent. This whole album is heavily influenced by some of the most famous works by Kuindzhi and, in fact, all tracks here are musical interpretations of same-titled paintings in free solo piano improvisation. It was recorded by Spencer Hauck in one of California Institute of the Arts' practice rooms in the winter of 2019 and released in the spring of 2020.
 
-![Album artwork](https://via.placeholder.com/360)
+![Album artwork](/images/kuindzhi.jpg)

@@ -4,11 +4,11 @@ title: About
 permalink: /about/
 ---
 
-My name is Alen Lee and I'd like to keep myself busy with various types of art, but mainly music and visual art.
+Based in Almaty, Kazakhstan, Alen Lee is an interdisciplinary contemporary artist, soon to graduate from California Institute of the Arts. His main spheres of work are music composition and performance- where he is focused mainly within a jazz and contemporary experimental music practices- , visual art- including analogue photography and painting- and literature- a relatively recent area of interest, which mainly focuses on traditional poetry and modern prose.
 
 ### More Information
 
-Amongst other streams of art I do literature, chess and storytelling
+
 
 ### Contact me
 
