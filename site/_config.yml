@@ -84,4 +84,5 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
-  - minima-style.scss
+
+destination: ../docs

@@ -17,7 +17,7 @@ layout: default
   {% for post in site.posts %}
     <div class="project">
       <div class="thumbnail">
-        <img src="{{post.thumbnail}}" alt="{{post.title}} thumbnail">
+        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{post.thumbnail}}" alt="{{post.title}} thumbnail"></a>
       </div>
       <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
     </div>

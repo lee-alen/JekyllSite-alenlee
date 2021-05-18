@@ -1,0 +1,254 @@
+/***************/
+/* MEYER RESET */
+/***************/
+@import url("https://fonts.googleapis.com/css2?family=Habibi&family=Rakkas&family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+/*16px*/
+body {
+  background: #ffed88;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #000000;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 3rem 0 1.38rem;
+  font-family: 'Habibi', serif;
+  font-weight: 400;
+  line-height: 1.3;
+}
+
+h1, h2 {
+  font-family: 'Rakkas', serif;
+}
+
+h1 a, h2 a {
+  text-decoration: none;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209rem;
+}
+
+h2 {
+  font-size: 3.157rem;
+}
+
+h3 {
+  font-size: 2.369rem;
+}
+
+h4 {
+  font-size: 1.777rem;
+}
+
+h5 {
+  font-size: 1.333rem;
+}
+
+small, .text_small {
+  font-size: 0.75rem;
+}
+
+a, a:visited, a:active {
+  color: #000000;
+}
+
+nav {
+  margin: 2rem 0;
+  font-weight: bold;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a::before {
+  content: '\2190 \00A0';
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  margin: 0 1.25rem;
+}
+
+hr {
+  border: 1px solid black;
+  border-top: 0;
+  margin: 3rem 0;
+}
+
+.avatar {
+  width: 128px;
+  height: 128px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin: -0.5rem 0 1rem;
+}
+
+.avatar img {
+  transform: scale(1.4) translate(-2%, -12%);
+}
+
+.bio h1 {
+  margin: 0;
+}
+
+footer {
+  background: #111;
+  color: #ffed88;
+  padding: .5rem 0 2rem;
+  margin-top: 4rem;
+}
+
+footer a, footer a:visited, footer a:active {
+  color: #ffed88;
+}
+
+.projects {
+  display: grid;
+  grid-gap: 3rem;
+}
+
+.projects .thumbnail {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.projects .thumbnail a {
+  line-height: 0;
+}
+
+.project h3 {
+  border-bottom: 1px solid black;
+  padding: .25rem 0 0.5rem;
+  font-size: 1.33rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.project h3 a {
+  text-decoration: none;
+}
+
+/* Tablet styles */
+@media screen and (min-width: 600px) {
+  .container {
+    margin: 0 2.5rem;
+    max-width: 1024px;
+  }
+  header {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 160px 1fr;
+    grid-gap: 2rem;
+  }
+  header .avatar {
+    width: 160px;
+    height: 160px;
+    margin: 0;
+  }
+  header .bio p {
+    max-width: 72ch;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1279px) {
+  .project {
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    background: rgba(0, 0, 0, 0.1);
+  }
+  .project h3 {
+    padding: 0 2rem;
+    border: none;
+    align-self: center;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+  .projects {
+    align-items: end;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
